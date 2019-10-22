@@ -1,0 +1,156 @@
+<template>
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg bg-transparent-light static-nav">
+      <div class="container">
+        <a
+          class="navbar-brand"
+          href="index.html"
+        >
+          <img
+            src="uploads/logo.png"
+            alt="logo"
+            style="width:75%"
+          >
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right collapsed d-none"
+          type="button"
+          data-toggle="collapse"
+          data-target="#xenav"
+        >
+          <span />
+          <span />
+          <span />
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="xenav"
+        >
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a
+                class="nav-link pagescroll"
+                href="#home"
+              >Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link pagescroll"
+                href="#service"
+              >Service</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link pagescroll"
+                href="#process"
+              >Process</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link pagescroll"
+                href="#portfolio"
+              >Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link pagescroll"
+                href="#clients"
+              >Clients</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link pagescroll"
+                href="#contact"
+              >contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!--side menu open button-->
+      <a
+        href="javascript:void(0)"
+        class="d-lg-inline-block sidemenu_btn"
+        id="sidemenu_toggle"
+      >
+        <span /> <span /> <span />
+      </a>
+    </nav>
+
+    <!-- side menu -->
+    <div class="side-menu">
+      <div class="inner-wrapper">
+        <span
+          class="btn-close"
+          id="btn_sideNavClose"
+        ><i /><i /></span>
+        <nav class="side-nav">
+          <ul class="navbar-nav w-100">
+            <li class="nav-item active">
+              <a
+                class="nav-link pagescroll"
+                href="#home"
+              >Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link pagescroll"
+                href="#service"
+              >Service</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link pagescroll"
+                href="#process"
+              >Process</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link pagescroll"
+                href="#portfolio"
+              >Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link pagescroll"
+                href="#clients"
+              >Clients</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link pagescroll"
+                href="#contact"
+              >contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="side-footer w-100">
+          <ul class="social-icons-simple white top40">
+            <li><a href="javascript:void(0)"><i class="fa fa-facebook" /> </a> </li>
+            <li><a href="javascript:void(0)"><i class="fa fa-instagram" /> </a> </li>
+            <li><a href="javascript:void(0)"><i class="fa fa-twitter" /> </a> </li>
+          </ul>
+          <p class="whitecolor">
+            &copy; 2018 Kualitas Prima Mandiri. Made With Love by <a href="https://ideapa.id/">ideapa.id</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <a
+      id="close_side_menu"
+      href="javascript:void(0);"
+    />
+    <!-- End side menu -->
+  </header>
+</template>
+
+<script>
+    export default {
+        name: "Header"
+    }
+</script>
+
+<style lang="scss" scoped>
+
+</style>

@@ -247,8 +247,8 @@ $("#submit_btn").click(function() {
    /*Partners / LOgo*/
    $("#partners-slider").owlCarousel({
       items: 5,
-      autoplay: 1500,
-      smartSpeed: 1500,
+      autoplay: 2500,
+      smartSpeed: 2500,
       autoplayHoverPause: true,
       slideBy: 1,
       loop: true,
