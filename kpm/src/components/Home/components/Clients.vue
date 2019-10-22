@@ -2,7 +2,8 @@
   <div>
     <section
       id="clients"
-      class="padding testimonial-bg parallaxie"
+      class="padding parallaxie"
+      :style="testimonyStyle"
     >
       <div class="container">
         <div class="row">
@@ -57,7 +58,7 @@
                 <div class="logo-item">
                   <img
                     alt=""
-                    :src="client.img"
+                    :src="config.baseDir + client.img"
                   >
                 </div>
               </div>
@@ -70,6 +71,7 @@
 </template>
 
 <script>
+    import config from "../../../config"
     export default {
         name : "Clients",
         data : function() {
@@ -127,7 +129,10 @@
                     {id: 30, name: "LOGO_ECCO", img: "/uploads/clients/LOGO_ECCO.png"},
                     {id: 31, name: "LOGO_ODD", img: "/uploads/clients/LOGO_ODD.png"},
                     {id: 32, name: "LOGO_FF", img: "/uploads/clients/LOGO_FF.png"}
-                ]
+                ],
+                testimonyStyle : {
+                    backgroundImage : config.baseDir + "/uploads/IMG_TESTIMONI.jpg"
+                }
             }
         }
     }

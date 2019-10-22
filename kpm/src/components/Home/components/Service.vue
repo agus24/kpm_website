@@ -42,6 +42,7 @@
 <script>
 import ServiceContent from "./Service/Content"
 import ServiceImage from "./Service/Image"
+import config from "../../../config"
 
 export default {
     name : "Service",
@@ -56,7 +57,7 @@ export default {
                     type : "left",
                     subtitle : "Service We Offer",
                     title : "Training & Development",
-                    content : "KPM will thoroughly discuss your business, its vision & mission, challenges and issues, and will work with you to develop training program to focus on your business needs, concentrating on the objectives specific to your organization.",
+                    content : "KPM will thoroughly discuss your business, its vision & mission, challenges and issues, and will work with you to develop training program to focus on your business needs, concentrating on the objectives specific to your organization."config.baseDir + ,
                     image : "/uploads/IMG_TRAINING.jpg"
                 },
                 {
@@ -65,7 +66,7 @@ export default {
                     subtitle : "Service We Offer",
                     title : "Digital Learning",
                     content : "Digital learning or e-Learning is a solution to deliver learning program in a more effective and efficient way. e-learning reaches a wider target audience by engaging learners who have difficulty attending conventional classroom training.",
-                    image : "/uploads/IMG_DIGLEARN.jpg"
+                    image : config.baseDir + "/uploads/IMG_DIGLEARN.jpg"
                 },
                 {
                     id : 3,
@@ -73,7 +74,7 @@ export default {
                     subtitle : "Service We Offer",
                     title : "Mystery Shopping",
                     content : "Mystery Shopping Program is a tool used to measure the experience of a customer from an unbiased point of view, yet offering an authentic reflection of a real customer interaction.",
-                    image : "/uploads/IMG_MS.jpg"
+                    image : config.baseDir + "/uploads/IMG_MS.jpg"
                 },
                 {
                     id : 4,
@@ -81,7 +82,7 @@ export default {
                     subtitle : "Service We Offer",
                     title : "Learning Management System",
                     content : "Learning management system is a technological platform to provide a solution for faster, efficient and engaging learning & communication process.",
-                    image : "/uploads/IMG_LMS.jpg"
+                    image : config.baseDir + "/uploads/IMG_LMS.jpg"
                 }
             ]
         }

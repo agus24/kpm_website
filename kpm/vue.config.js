@@ -1,7 +1,11 @@
 module.exports = {
   css: {
-    modules: true
+    requireModuleExtension: true
   },
 
-  lintOnSave: false
+    lintOnSave: false,
+  
+    publicPath: process.env.NODE_ENV === 'production'
+    ? '/kpm_publish/'
+    : '/'
 }
