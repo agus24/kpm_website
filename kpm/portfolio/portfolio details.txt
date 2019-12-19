@@ -1,0 +1,12 @@
+format:
+# - TITLE - DESCRIPTION
+
+1 - PANASONIC GOBEL INDONESIA - Force Field Team Training
+2 - PANASONIC GOBEL INDONESIA - Team Leader Training
+3 - SAMSONITE - Town Hall Conference
+4 - PRUDENTIAL LIFE INSURANCE - Country Trainers Training
+5 - PRESTASI RETAIL INNOVATION - Surabaya Staff Training
+6 - PRESTASI RETAIL INNOVATION - Train The Trainers
+7 - MITRA ADI PERKASA - Growth Brand Leadership Conference
+8 - MITRA ADI PERKASA - Krispy Kreme Leadership Conference
+9 - IDEPRENEURS INDONESIA - Public Speaking Workshop
